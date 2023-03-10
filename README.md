@@ -56,17 +56,17 @@ Obs.: Sempre que uma imagem não estiver no seu HOST Docker irá fazer o downloa
 * $ docker run -ti ubuntu bash
 * $ docker run -it debian bash 
 
-Obs.: -ti ou it indica terminal interativo, Ubuntu ou Debian é a imagem a ser utilizada e bash é o comando a ser utilizado; 
-Obs2.: Utilizando o -d o container rodar em background; 
-Obs3.: Com --name você pode dar um nome ao seu container; 
-Obs4.: possível especificar a versão da imagem a ser utilizada:
+* Obs.: -ti ou it indica terminal interativo, Ubuntu ou Debian é a imagem a ser utilizada e bash é o comando a ser utilizado; 
+* Obs2.: Utilizando o -d o container rodar em background; 
+* Obs3.: Com --name você pode dar um nome ao seu container; 
+* Obs4.: possível especificar a versão da imagem a ser utilizada:
 
 * $ docker run -ti ubuntu:22.04 bash
 
 
-Para sair do container e finalizar o processo use Ctrl+D;
-Para sair do container sem finalizar o processo use Ctrl+P+Q;
-Para voltar para o container ativo pegue o CONTAINER ID usando:
+* Para sair do container e finalizar o processo use Ctrl+D;
+* Para sair do container sem finalizar o processo use Ctrl+P+Q;
+* Para voltar para o container ativo pegue o CONTAINER ID usando:
 
 
 * $ docker ps
