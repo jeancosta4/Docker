@@ -16,8 +16,8 @@
 * Kernel > 3.8 
 * Sistema x64
 
-$ sudo apt update
-$ sudo apt install docker.io -y
+* $ sudo apt update
+* $ sudo apt install docker.io -y
 
 ou
 
