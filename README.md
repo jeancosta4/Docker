@@ -89,6 +89,11 @@ docker ps
 ```
 docker attach CONTAINER_ID/NAMES
 ```
+
+```
+docker exec -it CONTAINER_ID/NAMES bash
+```
+
 ### Para parar um container em execução sem entrar nele, use:
 ```
 docker stop CONTAINER_ID
